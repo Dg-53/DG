@@ -1,0 +1,94 @@
+<?php
+$name = "Ahmed Sabeih Abdulaziz";
+$title = "Computer Science Student - Information Systems";
+$about = "A passionate student with hands-on experience in internet tower management, web development, and networks. Seeking opportunities to grow in a professional tech environment.";
+$email = "asdyha333@example.com";
+$phone = "+964 07803018665";
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        h2 {
+            color: #0073e6;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><?php echo $name; ?></h1>
+        <p><?php echo $title; ?></p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p><?php echo $about; ?></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <ul>
+            <li>Email: <?php echo $email; ?></li>
+            <li>Phone: <?php echo $phone; ?></li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Java</li>
+            <li>HTML, CSS, PHP, MySQL</li>
+            <li>Computer Networks (Cisco Course)</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <p>Managed a local internet tower for 1 month, resolving network issues and ensuring stable connectivity.</p>
+    </section>
+
+    <footer>
+        <p>&copy; <?php echo date("Y"); ?> <?php echo $name; ?>. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
