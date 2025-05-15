@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Sabih</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+
+<body>
+
+    <header class="navbar">
+        <h1 class="logo">Ahmed</h1>
+        <div class="menu-toggle" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experirnce</a></li>
+                <li><a href="#contact-me" class="Contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="Mysection">
+        <div class="main">
+            <div class="text">
+                <h1 class="First-text">Hi!</h1>
+                <h2>I'm <span>Ahmed Sabih</span></h2>
+                <p>Student at the <br> Information System</p>
+            </div>
+
+
+            <div class="Button">
+                <a href="" class="btn see_myWork">See My Work</a>
+                <a href="content/CV-1.pdf" id="downloadCV" class="btn download">Download CV</a>
+
+
+            </div>
+        </div>
+        <div class="image">
+            <img src="Image/icon.png" alt="Ahmed at Computer">
+
+        </div>
+        <div class="info-sections">
+            <div class="section" id="about">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-content">
+                    <div class="card">
+                        <i class="fas fa-code card-icon"></i>
+                        <p>I’m Ahmed Sabih, a passionate student in Information Systems. I love learning new
+                            technologies and solving real-world problems through code.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <div class="section-content">
+                    <div class="card">
+                        <i class="fas fa-network-wired card-icon"></i>
+                        <p>HTML, CSS, JavaScript</p>
+                    </div>
+                    <div class="card">
+                        <p>Java, PHP, MySQL</p>
+                    </div>
+                    <div class="card">
+                        <p>Git & GitHub</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section" id="experience">
+                <h2 class="section-title">Experience</h2>
+                <div class="section-content">
+                    <div class="card">
+                        <i class="fas fa-lightbulb card-icon"></i>
+                        <p>Worked in managing an Internet tower for two months, handling tasks such as customer support,
+                            technical maintenance, and monitoring connection quality.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-me" id="contact-me">
+                <h2>Contact Me</h2>
+                <form action="https://formspree.io/f/mvgadyld" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="_replyto" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
