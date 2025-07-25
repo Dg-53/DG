@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects - Ahmed Sabih</title>
+    <meta name="description" content="Explore projects developed by Ahmed Sabih, Information Systems student.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Myork.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container">
+            <h1 class="logo">Ahmed</h1>
+            <div class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About me</a></li>
+                    <li><a href="index.html#skills">Skills</a></li>
+                    <li><a href="index.html#experience">Experience</a></li>
+                    <li><a href="index.html#contact-me" class="btn contact-btn">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h1 class="section-title"><i class="fas fa-code"></i> My Projects</h1>
+                <p class="section-subtitle">Here are some of the projects I've worked on during my studies</p>
+                <div class="filter-tabs">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="design">UI/UX Design</button>
+                    <button class="filter-btn" data-filter="other">Other</button>
+                </div>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="Image/Solar_system.svg" alt="Solar Battery Monitor System" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <h3>Solar Battery Monitor</h3>
+                                <p>PHP, MySQL, JavaScript</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Solar Battery Monitor</h3>
+                        <p>A reliable system for monitoring solar battery performance, charge levels, and energy output efficiently.</p>
+                        <div class="tech-tags">
+                            <span>Front End</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://dg-53.github.io/DG/SolarSystem/project1.html" target="_blank" class="btn primary-btn">
+                                <i class="fas fa-eye"></i> View Demo
+                            </a>
+                            <a href="https://github.com/Dg-53/DG/tree/main/SolarSystem" target="_blank" class="btn secondary-btn">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card" data-category="other">
+                    <div class="project-image">
+                        <img src="Image/Networks.svg" alt="Network for Smart City" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <h3>Network for Smart City</h3>
+                                <p>Packet Tracer, Network Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Network for Smart City</h3>
+                        <p>Secure network management system with traffic monitoring, device control, and access permissions handling.</p>
+                        <div class="tech-tags">
+                            <span>Packet Tracer</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Dg-53/DG/releases/download/Packet_Tracer/ProjectNetworks.rar" target="_blank" class="btn primary-btn">
+                                <i class="fas fa-eye"></i> View Demo
+                            </a>
+                            <a href="https://github.com/Dg-53/DG/releases/tag/Packet_Tracer" target="_blank" class="btn secondary-btn">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="Image/library.svg" alt="Library Management System" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <h3>Library Management</h3>
+                                <p>Java, JavaFX, MySQL</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Library Management</h3>
+                        <p>Library management application using JavaFX with book tracking, lending, and return features.</p>
+                        <div class="tech-tags">
+                            <span>Java</span>
+                            <span>CSS</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn primary-btn">
+                                <i class="fas fa-eye"></i> View Demo
+                            </a>
+                            <a href="#" class="btn secondary-btn">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="project-card" data-category="design">
+                    <div class="project-image">
+                        <img src="Image/under.png" alt="Learning Platform Design" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <h3>Learning Platform</h3>
+                                <p>UI/UX Design, Figma</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Learning Platform</h3>
+                        <p>Under construction: a bold new way to learn, packed with challenges, discovery, and progress that adapts to you.</p>
+                        <div class="tech-tags">
+                            <span>UI Design</span>
+                            <span>UX Research</span>
+                            <span>Figma</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn primary-btn disabled">
+                                <i class="fas fa-clock"></i> Coming Soon
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="Image/personal_webite.svg" alt="Personal Portfolio Website" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <h3>Personal Website</h3>
+                                <p>HTML, CSS, JavaScript</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Personal Website</h3>
+                        <p>This is my professional portfolio where you can learn about my experience and expertise.</p>
+                        <div class="tech-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="index.html" class="btn primary-btn">
+                                <i class="fas fa-eye"></i> View Demo
+                            </a>
+                            <a href="https://github.com/Dg-53/DG" class="btn secondary-btn">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 6 -->
+                <div class="project-card" data-category="other">
+                    <div class="project-image">
+                        <img src="Image/under.png" alt="Adventure Game Development" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <h3>Adventure Game</h3>
+                                <p>Unity, C#, Game Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Adventure Game</h3>
+                        <p>A thrilling new game is currently in development—get ready for an unforgettable experience unlike anything you've seen before. Stay tuned!</p>
+                        <div class="tech-tags">
+                            <span>Unity</span>
+                            <span>C#</span>
+                            <span>Game Design</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn primary-btn disabled">
+                                <i class="fas fa-clock"></i> Coming Soon
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="back-home">
+                <a href="index.html" class="btn primary-btn">
+                    <i class="fas fa-arrow-left"></i> Back to Home
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Ahmed Sabih</h3>
+                    <p>Information Systems Student & Developer</p>
+                </div>
+                
+                <div class="footer-links">
+                    <a href="index.html#about">About</a>
+                    <a href="index.html#skills">Skills</a>
+                    <a href="index.html#experience">Experience</a>
+                    <a href="index.html#contact-me">Contact</a>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="https://github.com/ahmedsabih" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/ahmedsabih" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://twitter.com/ahmedsabih" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Ahmed Sabih. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="MyWork.js"></script>
+</body>
+</html>
